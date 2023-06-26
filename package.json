@@ -1,0 +1,43 @@
+{
+	"name": "lotus-dark-theme",
+	"displayName": "Lotus Dark Theme",
+	"description": "Lotus minimal Dark Theme",
+	"version": "0.1.1",
+	"icon": "images/Lotus.png",
+	"publisher": "birdlinux",
+	"engines": {
+		"vscode": "^1.79.0"
+	},
+	
+	"categories": [
+		"Themes"
+	],
+	
+	"keywords": [
+		"theme",
+		"purple",
+		"lavender",
+		"pink",
+		"minimal",
+		"Lotus",
+		"magenta",
+		"dark",
+		"dark theme",
+		"minimal theme"
+	],
+	
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/birdlinux/lotus-vscode.git"
+	},
+	
+	"contributes": {
+		"themes": [
+			{
+				"label": "Lotus Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/LotusTheme.json"
+			}
+		]
+	}
+}
